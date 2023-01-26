@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// checking armstrong or not
+// checking a number is armstrong or not
 void checkArmstrong(int num)
 {
     int cpynum, mul = 1, len = 0, rem, sum = 0;
@@ -28,7 +28,7 @@ void checkArmstrong(int num)
         printf("%d ", sum);
 }
 
-// print armstrong in range
+// print armstrong numbers in a given range
 void findArmstrongInRange(int a, int b)
 {
 
@@ -38,6 +38,7 @@ void findArmstrongInRange(int a, int b)
     }
 }
 
+// print armstrong number at given position
 void nthArmstrong(int f)
 {   int counter=0;
     for (int i = 0; i <= 1000000000; i++)
